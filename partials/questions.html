@@ -14,8 +14,8 @@
       <button type="submit" class="btn btn-primary">Ask</button>
     </form>
     <div class="page-header">
-      <h1 ng-show="questions.length && filtered.length">Questions</h1>
-      <h1 ng-show="questions.length && !filtered.length">Ask your question</h1>
+      <h2 ng-show="questions.length && filtered.length">Questions</h2>
+      <h2 ng-show="questions.length && !filtered.length">Ask your question</h2>
         <ul>
           <li ng-repeat="item in filtered = ( questions | filter:query)">
             <a ui-sref="questions.answers({ questionId: item.id })">{{ item.title }}</a>

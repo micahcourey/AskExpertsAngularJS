@@ -1,25 +1,23 @@
 <div ng-show="question.answers.length">
-  <h2>Answers for {{ question.title }}</h2>
+  <h3>Answers for {{ question.title }}</h3>
   <ul>
     <li ng-repeat="item in question.answers">
       {{ item.content }}
     </li>
   </ul>
 </div>
-
 <div>
-  <h2>Add a answer to {{ question.title }}</h2>
   <form ng-submit="addAnswer()" class="form-inline" role="form">
     <div class="form-group">
+      <h3>Add a answer to {{ question.title }}</h3>
       <input type="text" ng-model="answerContent" class="form-control" placeholder="Enter an answer">
     </div>
       <button type="submit" class="btn btn-primary">Answer</button>
   </form>
 </div>
-
 <div class="row approved" ng-controller="ApprovedAnswersCtrl">
   <div class="col-md-6" ng-show="answersWithoutApproval.length">
-    <h2>Pending Approval</h2>
+    <h3>Pending Approval</h3>
     <ul>
       <li ng-repeat="item in answersWithoutApproval = (answers | filter:{approvalNote:false})">
         {{ item.content }} <a ng-click="addAnswerWithApprovalNote(item)"> - approve? -</a>
