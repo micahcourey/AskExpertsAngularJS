@@ -15,7 +15,7 @@ $ git clone https://github.com/micahcourey/AskExpertsAngularJS.git
 ```console
 $ python -m SimpleHTTPServer
 ```
-* type localhost:8000 in your browsers address bar and press the Enter key.
+* Type localhost:8000 in your browsers address bar and press the Enter key.
 
 
 

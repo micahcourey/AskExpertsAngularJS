@@ -11,7 +11,7 @@ Setup
 ```console
 $ git clone https://github.com/micahcourey/AskExpertsAngularJS.git
 ```
-** Start server inside project folder:
+* Start server inside project folder:
 ```console
 $ python -m SimpleHTTPServer
 ```
