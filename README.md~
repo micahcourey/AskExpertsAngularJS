@@ -11,13 +11,8 @@ Setup
 ```console
 $ git clone https://github.com/micahcourey/AskExpertsAngularJS.git
 ```
-** Start server inside project folder:
-```console
-$ python -m SimpleHTTPServer
-```
-* type localhost:8000 in your browsers address bar and press the Enter key.
-
-
+* Open 'index.html' in a browser of your choice
+* Enjoy!
 
 Technologies Used
 ----------
